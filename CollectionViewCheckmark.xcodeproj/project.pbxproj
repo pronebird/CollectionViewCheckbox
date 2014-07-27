@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5852B90A1985443F00B7BDCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852B9091985443F00B7BDCE /* Foundation.framework */; };
+		5852B90C1985443F00B7BDCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852B90B1985443F00B7BDCE /* CoreGraphics.framework */; };
+		5852B90E1985443F00B7BDCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852B90D1985443F00B7BDCE /* UIKit.framework */; };
+		5852B9141985443F00B7BDCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5852B9121985443F00B7BDCE /* InfoPlist.strings */; };
+		5852B9161985443F00B7BDCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5852B9151985443F00B7BDCE /* main.m */; };
+		5852B91A1985443F00B7BDCE /* MYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5852B9191985443F00B7BDCE /* MYAppDelegate.m */; };
+		5852B91D1985443F00B7BDCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5852B91B1985443F00B7BDCE /* Main.storyboard */; };
+		5852B9251985443F00B7BDCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5852B9241985443F00B7BDCE /* Images.xcassets */; };
+		5852B92C1985443F00B7BDCE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852B92B1985443F00B7BDCE /* XCTest.framework */; };
+		5852B92D1985443F00B7BDCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852B9091985443F00B7BDCE /* Foundation.framework */; };
+		5852B92E1985443F00B7BDCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852B90D1985443F00B7BDCE /* UIKit.framework */; };
+		5852B9361985443F00B7BDCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5852B9341985443F00B7BDCE /* InfoPlist.strings */; };
+		5852B9381985443F00B7BDCE /* CollectionViewCheckmarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5852B9371985443F00B7BDCE /* CollectionViewCheckmarkTests.m */; };
+		5852B9431985447100B7BDCE /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5852B9421985447100B7BDCE /* MYViewController.m */; };
+		5852B946198544DD00B7BDCE /* MYCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5852B945198544DD00B7BDCE /* MYCell.m */; };
+		5852B94C198553E000B7BDCE /* UIColor+MLPFlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5852B94B198553E000B7BDCE /* UIColor+MLPFlatColors.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5852B92F1985443F00B7BDCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5852B8FE1985443F00B7BDCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5852B9051985443F00B7BDCE;
+			remoteInfo = CollectionViewCheckmark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5852B9061985443F00B7BDCE /* CollectionViewCheckmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewCheckmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5852B9091985443F00B7BDCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5852B90B1985443F00B7BDCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5852B90D1985443F00B7BDCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5852B9111985443F00B7BDCE /* CollectionViewCheckmark-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionViewCheckmark-Info.plist"; sourceTree = "<group>"; };
+		5852B9131985443F00B7BDCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5852B9151985443F00B7BDCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5852B9171985443F00B7BDCE /* CollectionViewCheckmark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollectionViewCheckmark-Prefix.pch"; sourceTree = "<group>"; };
+		5852B9181985443F00B7BDCE /* MYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYAppDelegate.h; sourceTree = "<group>"; };
+		5852B9191985443F00B7BDCE /* MYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYAppDelegate.m; sourceTree = "<group>"; };
+		5852B91C1985443F00B7BDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5852B9241985443F00B7BDCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5852B92A1985443F00B7BDCE /* CollectionViewCheckmarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewCheckmarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5852B92B1985443F00B7BDCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5852B9331985443F00B7BDCE /* CollectionViewCheckmarkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionViewCheckmarkTests-Info.plist"; sourceTree = "<group>"; };
+		5852B9351985443F00B7BDCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5852B9371985443F00B7BDCE /* CollectionViewCheckmarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCheckmarkTests.m; sourceTree = "<group>"; };
+		5852B9411985447100B7BDCE /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		5852B9421985447100B7BDCE /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
+		5852B944198544DD00B7BDCE /* MYCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCell.h; sourceTree = "<group>"; };
+		5852B945198544DD00B7BDCE /* MYCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCell.m; sourceTree = "<group>"; };
+		5852B94A198553E000B7BDCE /* UIColor+MLPFlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLPFlatColors.h"; sourceTree = "<group>"; };
+		5852B94B198553E000B7BDCE /* UIColor+MLPFlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLPFlatColors.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5852B9031985443F00B7BDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5852B90C1985443F00B7BDCE /* CoreGraphics.framework in Frameworks */,
+				5852B90E1985443F00B7BDCE /* UIKit.framework in Frameworks */,
+				5852B90A1985443F00B7BDCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5852B9271985443F00B7BDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5852B92C1985443F00B7BDCE /* XCTest.framework in Frameworks */,
+				5852B92E1985443F00B7BDCE /* UIKit.framework in Frameworks */,
+				5852B92D1985443F00B7BDCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5852B8FD1985443F00B7BDCE = {
+			isa = PBXGroup;
+			children = (
+				5852B90F1985443F00B7BDCE /* CollectionViewCheckmark */,
+				5852B9311985443F00B7BDCE /* CollectionViewCheckmarkTests */,
+				5852B9081985443F00B7BDCE /* Frameworks */,
+				5852B9071985443F00B7BDCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5852B9071985443F00B7BDCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5852B9061985443F00B7BDCE /* CollectionViewCheckmark.app */,
+				5852B92A1985443F00B7BDCE /* CollectionViewCheckmarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5852B9081985443F00B7BDCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5852B9091985443F00B7BDCE /* Foundation.framework */,
+				5852B90B1985443F00B7BDCE /* CoreGraphics.framework */,
+				5852B90D1985443F00B7BDCE /* UIKit.framework */,
+				5852B92B1985443F00B7BDCE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5852B90F1985443F00B7BDCE /* CollectionViewCheckmark */ = {
+			isa = PBXGroup;
+			children = (
+				5852B9181985443F00B7BDCE /* MYAppDelegate.h */,
+				5852B9191985443F00B7BDCE /* MYAppDelegate.m */,
+				5852B9411985447100B7BDCE /* MYViewController.h */,
+				5852B9421985447100B7BDCE /* MYViewController.m */,
+				5852B944198544DD00B7BDCE /* MYCell.h */,
+				5852B945198544DD00B7BDCE /* MYCell.m */,
+				5852B91B1985443F00B7BDCE /* Main.storyboard */,
+				5852B9241985443F00B7BDCE /* Images.xcassets */,
+				5852B9101985443F00B7BDCE /* Supporting Files */,
+			);
+			path = CollectionViewCheckmark;
+			sourceTree = "<group>";
+		};
+		5852B9101985443F00B7BDCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5852B9111985443F00B7BDCE /* CollectionViewCheckmark-Info.plist */,
+				5852B9121985443F00B7BDCE /* InfoPlist.strings */,
+				5852B9151985443F00B7BDCE /* main.m */,
+				5852B9171985443F00B7BDCE /* CollectionViewCheckmark-Prefix.pch */,
+				5852B94A198553E000B7BDCE /* UIColor+MLPFlatColors.h */,
+				5852B94B198553E000B7BDCE /* UIColor+MLPFlatColors.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5852B9311985443F00B7BDCE /* CollectionViewCheckmarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5852B9371985443F00B7BDCE /* CollectionViewCheckmarkTests.m */,
+				5852B9321985443F00B7BDCE /* Supporting Files */,
+			);
+			path = CollectionViewCheckmarkTests;
+			sourceTree = "<group>";
+		};
+		5852B9321985443F00B7BDCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5852B9331985443F00B7BDCE /* CollectionViewCheckmarkTests-Info.plist */,
+				5852B9341985443F00B7BDCE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5852B9051985443F00B7BDCE /* CollectionViewCheckmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5852B93B1985443F00B7BDCE /* Build configuration list for PBXNativeTarget "CollectionViewCheckmark" */;
+			buildPhases = (
+				5852B9021985443F00B7BDCE /* Sources */,
+				5852B9031985443F00B7BDCE /* Frameworks */,
+				5852B9041985443F00B7BDCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionViewCheckmark;
+			productName = CollectionViewCheckmark;
+			productReference = 5852B9061985443F00B7BDCE /* CollectionViewCheckmark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5852B9291985443F00B7BDCE /* CollectionViewCheckmarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5852B93E1985443F00B7BDCE /* Build configuration list for PBXNativeTarget "CollectionViewCheckmarkTests" */;
+			buildPhases = (
+				5852B9261985443F00B7BDCE /* Sources */,
+				5852B9271985443F00B7BDCE /* Frameworks */,
+				5852B9281985443F00B7BDCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5852B9301985443F00B7BDCE /* PBXTargetDependency */,
+			);
+			name = CollectionViewCheckmarkTests;
+			productName = CollectionViewCheckmarkTests;
+			productReference = 5852B92A1985443F00B7BDCE /* CollectionViewCheckmarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5852B8FE1985443F00B7BDCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andrej Mihajlov";
+				TargetAttributes = {
+					5852B9291985443F00B7BDCE = {
+						TestTargetID = 5852B9051985443F00B7BDCE;
+					};
+				};
+			};
+			buildConfigurationList = 5852B9011985443F00B7BDCE /* Build configuration list for PBXProject "CollectionViewCheckmark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5852B8FD1985443F00B7BDCE;
+			productRefGroup = 5852B9071985443F00B7BDCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5852B9051985443F00B7BDCE /* CollectionViewCheckmark */,
+				5852B9291985443F00B7BDCE /* CollectionViewCheckmarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5852B9041985443F00B7BDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5852B9251985443F00B7BDCE /* Images.xcassets in Resources */,
+				5852B9141985443F00B7BDCE /* InfoPlist.strings in Resources */,
+				5852B91D1985443F00B7BDCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5852B9281985443F00B7BDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5852B9361985443F00B7BDCE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5852B9021985443F00B7BDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5852B94C198553E000B7BDCE /* UIColor+MLPFlatColors.m in Sources */,
+				5852B9431985447100B7BDCE /* MYViewController.m in Sources */,
+				5852B946198544DD00B7BDCE /* MYCell.m in Sources */,
+				5852B91A1985443F00B7BDCE /* MYAppDelegate.m in Sources */,
+				5852B9161985443F00B7BDCE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5852B9261985443F00B7BDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5852B9381985443F00B7BDCE /* CollectionViewCheckmarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5852B9301985443F00B7BDCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5852B9051985443F00B7BDCE /* CollectionViewCheckmark */;
+			targetProxy = 5852B92F1985443F00B7BDCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5852B9121985443F00B7BDCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5852B9131985443F00B7BDCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5852B91B1985443F00B7BDCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5852B91C1985443F00B7BDCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5852B9341985443F00B7BDCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5852B9351985443F00B7BDCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5852B9391985443F00B7BDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5852B93A1985443F00B7BDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5852B93C1985443F00B7BDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollectionViewCheckmark/CollectionViewCheckmark-Prefix.pch";
+				INFOPLIST_FILE = "CollectionViewCheckmark/CollectionViewCheckmark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5852B93D1985443F00B7BDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollectionViewCheckmark/CollectionViewCheckmark-Prefix.pch";
+				INFOPLIST_FILE = "CollectionViewCheckmark/CollectionViewCheckmark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5852B93F1985443F00B7BDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CollectionViewCheckmark.app/CollectionViewCheckmark";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollectionViewCheckmark/CollectionViewCheckmark-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CollectionViewCheckmarkTests/CollectionViewCheckmarkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5852B9401985443F00B7BDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CollectionViewCheckmark.app/CollectionViewCheckmark";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollectionViewCheckmark/CollectionViewCheckmark-Prefix.pch";
+				INFOPLIST_FILE = "CollectionViewCheckmarkTests/CollectionViewCheckmarkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5852B9011985443F00B7BDCE /* Build configuration list for PBXProject "CollectionViewCheckmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5852B9391985443F00B7BDCE /* Debug */,
+				5852B93A1985443F00B7BDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5852B93B1985443F00B7BDCE /* Build configuration list for PBXNativeTarget "CollectionViewCheckmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5852B93C1985443F00B7BDCE /* Debug */,
+				5852B93D1985443F00B7BDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5852B93E1985443F00B7BDCE /* Build configuration list for PBXNativeTarget "CollectionViewCheckmarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5852B93F1985443F00B7BDCE /* Debug */,
+				5852B9401985443F00B7BDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5852B8FE1985443F00B7BDCE /* Project object */;
+}
