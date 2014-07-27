@@ -60,7 +60,7 @@ static NSString* const kCellID = @"Cell";
 
 - (UICollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-	// Dequeue xell
+	// Dequeue cell
 	MYCell* cell = (MYCell*) [collectionView dequeueReusableCellWithReuseIdentifier:kCellID forIndexPath:indexPath];
 	
 	// Restore cell's checkbox state
