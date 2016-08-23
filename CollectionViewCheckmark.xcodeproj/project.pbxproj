@@ -10,6 +10,7 @@
 		488AECF31D6CB13A0077C807 /* MySwiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488AECF21D6CB13A0077C807 /* MySwiftCell.swift */; };
 		488AECF71D6CB2740077C807 /* CheckboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488AECF61D6CB2740077C807 /* CheckboxViewController.swift */; };
 		488AECF91D6CB4560077C807 /* UIKit Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488AECF81D6CB4560077C807 /* UIKit Extensions.swift */; };
+		5827DFB81D6CCF1B00CE7F7D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5827DFB71D6CCF1B00CE7F7D /* Launch Screen.storyboard */; };
 		5852B90A1985443F00B7BDCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852B9091985443F00B7BDCE /* Foundation.framework */; };
 		5852B90C1985443F00B7BDCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852B90B1985443F00B7BDCE /* CoreGraphics.framework */; };
 		5852B90E1985443F00B7BDCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852B90D1985443F00B7BDCE /* UIKit.framework */; };
@@ -42,6 +43,7 @@
 		488AECF21D6CB13A0077C807 /* MySwiftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MySwiftCell.swift; path = View/MySwiftCell.swift; sourceTree = "<group>"; };
 		488AECF61D6CB2740077C807 /* CheckboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckboxViewController.swift; path = ViewController/CheckboxViewController.swift; sourceTree = "<group>"; };
 		488AECF81D6CB4560077C807 /* UIKit Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIKit Extensions.swift"; path = "Util/UIKit Extensions.swift"; sourceTree = "<group>"; };
+		5827DFB71D6CCF1B00CE7F7D /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		5852B9061985443F00B7BDCE /* CollectionViewCheckmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewCheckmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5852B9091985443F00B7BDCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5852B90B1985443F00B7BDCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -209,6 +211,7 @@
 				5852B9191985443F00B7BDCE /* MYAppDelegate.m */,
 				5852B9121985443F00B7BDCE /* InfoPlist.strings */,
 				5852B91B1985443F00B7BDCE /* Main.storyboard */,
+				5827DFB71D6CCF1B00CE7F7D /* Launch Screen.storyboard */,
 				5852B9241985443F00B7BDCE /* Images.xcassets */,
 				5852B9111985443F00B7BDCE /* CollectionViewCheckmark-Info.plist */,
 				5852B9171985443F00B7BDCE /* CollectionViewCheckmark-Prefix.pch */,
@@ -317,6 +320,7 @@
 			files = (
 				5852B9251985443F00B7BDCE /* Images.xcassets in Resources */,
 				5852B9141985443F00B7BDCE /* InfoPlist.strings in Resources */,
+				5827DFB81D6CCF1B00CE7F7D /* Launch Screen.storyboard in Resources */,
 				5852B91D1985443F00B7BDCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
